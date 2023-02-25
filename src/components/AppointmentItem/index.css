@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.list-item-container {
+  list-style-type: none;
+  border-style: solid;
+  border-color: #b5b7c4;
+  border-radius: 10px;
+  height: 150px;
+  padding-left: 10px;
+  margin-left: 0px;
+  margin: 5px;
+}
+
+.header-container {
+  display: flex;
+}
+
+.star-btn {
+  margin-left: 80px;
+  border-style: none;
+  background-color: transparent;
+}
+
+.name {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.apt-date {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 18px;
+}

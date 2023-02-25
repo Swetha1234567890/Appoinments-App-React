@@ -1,0 +1,112 @@
+/* Write your CSS here */
+.background {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+
+.title-heading {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: bold;
+  color: #b5b7c4;
+}
+
+.date-heading {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: bold;
+  color: #b5b7c4;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  height: 40px;
+  width: 300px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  border-color: #b5b7c4;
+  border-radius: 5px;
+}
+
+.date {
+  height: 40px;
+  width: 300px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  border-color: #b5b7c4;
+  border-radius: 5px;
+}
+
+.sub-container {
+  display: flex;
+}
+
+.add-btn {
+  height: 35px;
+  width: 90px;
+  border-style: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  background-color: #8b5cf6;
+}
+
+.image {
+  height: 200px;
+  padding-left: 25px;
+}
+
+.star {
+  border-color: #8b5cf6;
+  color: #8b5cf6;
+  border-radius: 15px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  background-color: transparent;
+  height: 30px;
+  width: 80px;
+  margin-top: 10px;
+}
+
+.appointments-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-filled {
+  color: #ffffff;
+  background-color: #9897f0;
+}
+
+.filter-empty {
+  color: #9897f0;
+  background-color: white;
+  border: 1px solid #9897f0;
+}
+
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
